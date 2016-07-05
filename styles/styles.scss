@@ -1,0 +1,38 @@
+body {
+    background-color: #F5F5F1;
+    font-family: helvetica;
+    font-size: 0.9rem;
+    a {
+        text-decoration: none;
+    }
+    .holder {
+        display: inline-block;
+        width: 20%;
+        box-sizing: border-box;
+        margin: 1rem;
+        background-color: white;
+
+        img {
+            display: inline-block;
+            width: 100%;
+        }
+
+        .title {
+            text-overflow: ellipsis;
+            display: block;
+            height: 18px;
+            overflow: hidden;
+            width: 100%;
+            color: black;
+        }
+        .shop {
+            display: inline-block;
+            color: #9A9AA0;
+
+        }
+        .price {
+            float: right;
+            color: #78C19A;
+        }
+    }
+}

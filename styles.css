@@ -1,0 +1,30 @@
+body {
+  background-color: #F5F5F1;
+  font-family: helvetica;
+  font-size: 0.9rem; }
+  body a {
+    text-decoration: none; }
+  body .holder {
+    display: inline-block;
+    width: 20%;
+    box-sizing: border-box;
+    margin: 1rem;
+    background-color: white; }
+    body .holder img {
+      display: inline-block;
+      width: 100%; }
+    body .holder .title {
+      text-overflow: ellipsis;
+      display: block;
+      height: 18px;
+      overflow: hidden;
+      width: 100%;
+      color: black; }
+    body .holder .shop {
+      display: inline-block;
+      color: #9A9AA0; }
+    body .holder .price {
+      float: right;
+      color: #78C19A; }
+
+/*# sourceMappingURL=styles.css.map */
