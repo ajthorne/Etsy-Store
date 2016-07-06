@@ -2,6 +2,73 @@ body {
     background-color: #F5F5F1;
     font-family: helvetica;
     font-size: 0.9rem;
+    header {
+        background-color: white;
+        padding-left: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #E1E3DF;
+        .text {
+            vertical-align: top;
+            margin-top: 0.2rem;
+            margin-left: 1rem;
+            background-color: #FBFBFA;
+            border-top-left-radius: 3px;
+            border-bottom-left-radius: 3px;
+            width: 25%;
+            font-size: 1rem;
+            height: 28px;
+            border: 1px solid #CFCBC8;
+        }
+        .button {
+          margin-left: -0.25rem;
+          margin-top: 0.2rem;
+          vertical-align: top;
+          background-color: #34A8C4;
+          border-bottom-right-radius: 3px;
+          border-top-right-radius: 3px;
+          width: 7%;
+          color: white;
+          height: 32px;
+          font-weight: bold;
+          border: 0;
+        }
+    }
+    aside {
+      float: left;
+      width: 18%;
+
+      h4 {
+        margin-bottom: 0.5rem;
+        margin-left: 2rem;
+        margin-top: 1.5rem;
+      }
+      ul {
+        margin: 0;
+        margin-left: 2rem;
+        font-weight: bold;
+        background-color: white;
+        padding-left: 0.5rem;
+        padding-top: 0.5rem;
+        border-radius: 5px;
+        border: 1px solid #CFCBC8;
+
+        li {
+          font-weight: normal;
+          list-style-type: none;
+          padding-left: 0.5rem;
+          line-height: 23px;
+        }
+      }
+    }
+    main {
+      float: right;
+      width: 80%;
+    h4 {
+      margin-bottom: 0;
+      margin-left: 1rem;
+      font-weight: 500;
+    }
     a {
         text-decoration: none;
     }
@@ -11,12 +78,11 @@ body {
         box-sizing: border-box;
         margin: 1rem;
         background-color: white;
-
+        border-radius: 3px;
         img {
             display: inline-block;
             width: 100%;
         }
-
         .title {
             text-overflow: ellipsis;
             display: block;
@@ -28,11 +94,11 @@ body {
         .shop {
             display: inline-block;
             color: #9A9AA0;
-
         }
         .price {
             float: right;
             color: #78C19A;
         }
     }
+}
 }

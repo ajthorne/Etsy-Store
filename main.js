@@ -24,7 +24,7 @@ function searchData(data) {
         // console.log(item.Images[0].url_170x135); --works
 
 
-        //define variables
+        //declare variables to store
         var content = $('main');
         var searchResult = $('<div class="holder"></div>');
         var source = $('<a></a>').attr('href', item.url);
@@ -36,12 +36,15 @@ function searchData(data) {
 
         //append new html elements onto DOM
         $(content).append(searchResult);
+        //add container to main section
         $(searchResult).wrap(source);
         //wrap puts anchor tag around whatever is indicated
         $(searchResult).append(itemImg);
         $(searchResult).append(itemDetails);
+        //add img and details div to container
         $(itemDetails).append(itemTitle);
         $(itemDetails).append(itemShop);
         $(itemDetails).append(itemPrice);
+        //add item details to itemDetails div
 });
 }
